@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F82C981DF938DA002A8E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82C971DF938DA002A8E53 /* main.m */; };
+		61F82CA31DF938DA002A8E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F82CA21DF938DA002A8E53 /* Assets.xcassets */; };
+		61F82CA61DF938DA002A8E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F82CA41DF938DA002A8E53 /* LaunchScreen.storyboard */; };
+		61F82CB11DF938DA002A8E53 /* app________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CB01DF938DA002A8E53 /* app________Tests.m */; };
+		61F82CBC1DF938DA002A8E53 /* app________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CBB1DF938DA002A8E53 /* app________UITests.m */; };
+		61F82CD81DF93AAE002A8E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CD71DF93AAE002A8E53 /* AppDelegate.m */; };
+		61F82CDE1DF93AC3002A8E53 /* KNNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CDB1DF93AC3002A8E53 /* KNNavViewController.m */; };
+		61F82CDF1DF93AC3002A8E53 /* KNTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CDD1DF93AC3002A8E53 /* KNTabViewController.m */; };
+		61F82CE31DF93ADF002A8E53 /* KNHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CE21DF93ADF002A8E53 /* KNHomeController.m */; };
+		61F82CE91DF93B6C002A8E53 /* KNActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CE81DF93B6C002A8E53 /* KNActivityController.m */; };
+		61F82CEC1DF93B8B002A8E53 /* KNBuyCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CEB1DF93B8B002A8E53 /* KNBuyCarController.m */; };
+		61F82CEF1DF93B9A002A8E53 /* KNMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CEE1DF93B9A002A8E53 /* KNMineController.m */; };
+		61F82CF21DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CF11DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.m */; };
+		61F82CF51DF93C21002A8E53 /* UIView+KNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F82CF41DF93C21002A8E53 /* UIView+KNView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F82CAD1DF938DA002A8E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F82C8B1DF938DA002A8E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F82C921DF938DA002A8E53;
+			remoteInfo = "app基本架构快速集成";
+		};
+		61F82CB81DF938DA002A8E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F82C8B1DF938DA002A8E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F82C921DF938DA002A8E53;
+			remoteInfo = "app基本架构快速集成";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F82C931DF938DA002A8E53 /* app基本架构快速集成.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app基本架构快速集成.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F82C971DF938DA002A8E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61F82CA21DF938DA002A8E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F82CA51DF938DA002A8E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61F82CA71DF938DA002A8E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F82CAC1DF938DA002A8E53 /* app基本架构快速集成Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app基本架构快速集成Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F82CB01DF938DA002A8E53 /* app________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "app________Tests.m"; sourceTree = "<group>"; };
+		61F82CB21DF938DA002A8E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F82CB71DF938DA002A8E53 /* app基本架构快速集成UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app基本架构快速集成UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F82CBB1DF938DA002A8E53 /* app________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "app________UITests.m"; sourceTree = "<group>"; };
+		61F82CBD1DF938DA002A8E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F82CD61DF93AAE002A8E53 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61F82CD71DF93AAE002A8E53 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61F82CDA1DF93AC3002A8E53 /* KNNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavViewController.h; sourceTree = "<group>"; };
+		61F82CDB1DF93AC3002A8E53 /* KNNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavViewController.m; sourceTree = "<group>"; };
+		61F82CDC1DF93AC3002A8E53 /* KNTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTabViewController.h; sourceTree = "<group>"; };
+		61F82CDD1DF93AC3002A8E53 /* KNTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTabViewController.m; sourceTree = "<group>"; };
+		61F82CE11DF93ADF002A8E53 /* KNHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNHomeController.h; sourceTree = "<group>"; };
+		61F82CE21DF93ADF002A8E53 /* KNHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNHomeController.m; sourceTree = "<group>"; };
+		61F82CE71DF93B6C002A8E53 /* KNActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNActivityController.h; sourceTree = "<group>"; };
+		61F82CE81DF93B6C002A8E53 /* KNActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNActivityController.m; sourceTree = "<group>"; };
+		61F82CEA1DF93B8B002A8E53 /* KNBuyCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBuyCarController.h; sourceTree = "<group>"; };
+		61F82CEB1DF93B8B002A8E53 /* KNBuyCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBuyCarController.m; sourceTree = "<group>"; };
+		61F82CED1DF93B9A002A8E53 /* KNMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMineController.h; sourceTree = "<group>"; };
+		61F82CEE1DF93B9A002A8E53 /* KNMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMineController.m; sourceTree = "<group>"; };
+		61F82CF01DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KNBarButtonItem.h"; sourceTree = "<group>"; };
+		61F82CF11DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KNBarButtonItem.m"; sourceTree = "<group>"; };
+		61F82CF31DF93C21002A8E53 /* UIView+KNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KNView.h"; sourceTree = "<group>"; };
+		61F82CF41DF93C21002A8E53 /* UIView+KNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KNView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F82C901DF938DA002A8E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F82CA91DF938DA002A8E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F82CB41DF938DA002A8E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F82C8A1DF938DA002A8E53 = {
+			isa = PBXGroup;
+			children = (
+				61F82C951DF938DA002A8E53 /* app基本架构快速集成 */,
+				61F82CAF1DF938DA002A8E53 /* app基本架构快速集成Tests */,
+				61F82CBA1DF938DA002A8E53 /* app基本架构快速集成UITests */,
+				61F82C941DF938DA002A8E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F82C941DF938DA002A8E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F82C931DF938DA002A8E53 /* app基本架构快速集成.app */,
+				61F82CAC1DF938DA002A8E53 /* app基本架构快速集成Tests.xctest */,
+				61F82CB71DF938DA002A8E53 /* app基本架构快速集成UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F82C951DF938DA002A8E53 /* app基本架构快速集成 */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CE01DF93ADF002A8E53 /* Home */,
+				61F82CE41DF93B07002A8E53 /* Activity */,
+				61F82CE51DF93B29002A8E53 /* BuyCar */,
+				61F82CE61DF93B34002A8E53 /* Mine */,
+				61F82CD91DF93AC3002A8E53 /* Main */,
+				61F82CD51DF93AAE002A8E53 /* Other */,
+				61F82CA21DF938DA002A8E53 /* Assets.xcassets */,
+				61F82CA41DF938DA002A8E53 /* LaunchScreen.storyboard */,
+				61F82CA71DF938DA002A8E53 /* Info.plist */,
+				61F82C961DF938DA002A8E53 /* Supporting Files */,
+			);
+			path = "app基本架构快速集成";
+			sourceTree = "<group>";
+		};
+		61F82C961DF938DA002A8E53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F82C971DF938DA002A8E53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61F82CAF1DF938DA002A8E53 /* app基本架构快速集成Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CB01DF938DA002A8E53 /* app________Tests.m */,
+				61F82CB21DF938DA002A8E53 /* Info.plist */,
+			);
+			path = "app基本架构快速集成Tests";
+			sourceTree = "<group>";
+		};
+		61F82CBA1DF938DA002A8E53 /* app基本架构快速集成UITests */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CBB1DF938DA002A8E53 /* app________UITests.m */,
+				61F82CBD1DF938DA002A8E53 /* Info.plist */,
+			);
+			path = "app基本架构快速集成UITests";
+			sourceTree = "<group>";
+		};
+		61F82CD51DF93AAE002A8E53 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CF31DF93C21002A8E53 /* UIView+KNView.h */,
+				61F82CF41DF93C21002A8E53 /* UIView+KNView.m */,
+				61F82CF01DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.h */,
+				61F82CF11DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.m */,
+				61F82CD61DF93AAE002A8E53 /* AppDelegate.h */,
+				61F82CD71DF93AAE002A8E53 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		61F82CD91DF93AC3002A8E53 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CDA1DF93AC3002A8E53 /* KNNavViewController.h */,
+				61F82CDB1DF93AC3002A8E53 /* KNNavViewController.m */,
+				61F82CDC1DF93AC3002A8E53 /* KNTabViewController.h */,
+				61F82CDD1DF93AC3002A8E53 /* KNTabViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		61F82CE01DF93ADF002A8E53 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CE11DF93ADF002A8E53 /* KNHomeController.h */,
+				61F82CE21DF93ADF002A8E53 /* KNHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		61F82CE41DF93B07002A8E53 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CE71DF93B6C002A8E53 /* KNActivityController.h */,
+				61F82CE81DF93B6C002A8E53 /* KNActivityController.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		61F82CE51DF93B29002A8E53 /* BuyCar */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CEA1DF93B8B002A8E53 /* KNBuyCarController.h */,
+				61F82CEB1DF93B8B002A8E53 /* KNBuyCarController.m */,
+			);
+			path = BuyCar;
+			sourceTree = "<group>";
+		};
+		61F82CE61DF93B34002A8E53 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				61F82CED1DF93B9A002A8E53 /* KNMineController.h */,
+				61F82CEE1DF93B9A002A8E53 /* KNMineController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F82C921DF938DA002A8E53 /* app基本架构快速集成 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F82CC01DF938DA002A8E53 /* Build configuration list for PBXNativeTarget "app基本架构快速集成" */;
+			buildPhases = (
+				61F82C8F1DF938DA002A8E53 /* Sources */,
+				61F82C901DF938DA002A8E53 /* Frameworks */,
+				61F82C911DF938DA002A8E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app基本架构快速集成";
+			productName = "app基本架构快速集成";
+			productReference = 61F82C931DF938DA002A8E53 /* app基本架构快速集成.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F82CAB1DF938DA002A8E53 /* app基本架构快速集成Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F82CC31DF938DA002A8E53 /* Build configuration list for PBXNativeTarget "app基本架构快速集成Tests" */;
+			buildPhases = (
+				61F82CA81DF938DA002A8E53 /* Sources */,
+				61F82CA91DF938DA002A8E53 /* Frameworks */,
+				61F82CAA1DF938DA002A8E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F82CAE1DF938DA002A8E53 /* PBXTargetDependency */,
+			);
+			name = "app基本架构快速集成Tests";
+			productName = "app基本架构快速集成Tests";
+			productReference = 61F82CAC1DF938DA002A8E53 /* app基本架构快速集成Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61F82CB61DF938DA002A8E53 /* app基本架构快速集成UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F82CC61DF938DA002A8E53 /* Build configuration list for PBXNativeTarget "app基本架构快速集成UITests" */;
+			buildPhases = (
+				61F82CB31DF938DA002A8E53 /* Sources */,
+				61F82CB41DF938DA002A8E53 /* Frameworks */,
+				61F82CB51DF938DA002A8E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F82CB91DF938DA002A8E53 /* PBXTargetDependency */,
+			);
+			name = "app基本架构快速集成UITests";
+			productName = "app基本架构快速集成UITests";
+			productReference = 61F82CB71DF938DA002A8E53 /* app基本架构快速集成UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F82C8B1DF938DA002A8E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cloud;
+				TargetAttributes = {
+					61F82C921DF938DA002A8E53 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4ZUL3TQ72;
+					};
+					61F82CAB1DF938DA002A8E53 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4ZUL3TQ72;
+						TestTargetID = 61F82C921DF938DA002A8E53;
+					};
+					61F82CB61DF938DA002A8E53 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4ZUL3TQ72;
+						TestTargetID = 61F82C921DF938DA002A8E53;
+					};
+				};
+			};
+			buildConfigurationList = 61F82C8E1DF938DA002A8E53 /* Build configuration list for PBXProject "app基本架构快速集成" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F82C8A1DF938DA002A8E53;
+			productRefGroup = 61F82C941DF938DA002A8E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F82C921DF938DA002A8E53 /* app基本架构快速集成 */,
+				61F82CAB1DF938DA002A8E53 /* app基本架构快速集成Tests */,
+				61F82CB61DF938DA002A8E53 /* app基本架构快速集成UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F82C911DF938DA002A8E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F82CA61DF938DA002A8E53 /* LaunchScreen.storyboard in Resources */,
+				61F82CA31DF938DA002A8E53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F82CAA1DF938DA002A8E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F82CB51DF938DA002A8E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F82C8F1DF938DA002A8E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F82CDF1DF93AC3002A8E53 /* KNTabViewController.m in Sources */,
+				61F82CF21DF93BDE002A8E53 /* UIBarButtonItem+KNBarButtonItem.m in Sources */,
+				61F82CE31DF93ADF002A8E53 /* KNHomeController.m in Sources */,
+				61F82C981DF938DA002A8E53 /* main.m in Sources */,
+				61F82CEF1DF93B9A002A8E53 /* KNMineController.m in Sources */,
+				61F82CDE1DF93AC3002A8E53 /* KNNavViewController.m in Sources */,
+				61F82CEC1DF93B8B002A8E53 /* KNBuyCarController.m in Sources */,
+				61F82CD81DF93AAE002A8E53 /* AppDelegate.m in Sources */,
+				61F82CF51DF93C21002A8E53 /* UIView+KNView.m in Sources */,
+				61F82CE91DF93B6C002A8E53 /* KNActivityController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F82CA81DF938DA002A8E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F82CB11DF938DA002A8E53 /* app________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F82CB31DF938DA002A8E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F82CBC1DF938DA002A8E53 /* app________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F82CAE1DF938DA002A8E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F82C921DF938DA002A8E53 /* app基本架构快速集成 */;
+			targetProxy = 61F82CAD1DF938DA002A8E53 /* PBXContainerItemProxy */;
+		};
+		61F82CB91DF938DA002A8E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F82C921DF938DA002A8E53 /* app基本架构快速集成 */;
+			targetProxy = 61F82CB81DF938DA002A8E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61F82CA41DF938DA002A8E53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F82CA51DF938DA002A8E53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F82CBE1DF938DA002A8E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61F82CBF1DF938DA002A8E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F82CC11DF938DA002A8E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "app基本架构快速集成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "knys.app--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61F82CC21DF938DA002A8E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "app基本架构快速集成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "knys.app--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61F82CC41DF938DA002A8E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "app基本架构快速集成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "knys.app--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app基本架构快速集成.app/app基本架构快速集成";
+			};
+			name = Debug;
+		};
+		61F82CC51DF938DA002A8E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "app基本架构快速集成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "knys.app--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app基本架构快速集成.app/app基本架构快速集成";
+			};
+			name = Release;
+		};
+		61F82CC71DF938DA002A8E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "app基本架构快速集成UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "knys.app--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "app基本架构快速集成";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		61F82CC81DF938DA002A8E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "app基本架构快速集成UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "knys.app--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "app基本架构快速集成";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F82C8E1DF938DA002A8E53 /* Build configuration list for PBXProject "app基本架构快速集成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F82CBE1DF938DA002A8E53 /* Debug */,
+				61F82CBF1DF938DA002A8E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F82CC01DF938DA002A8E53 /* Build configuration list for PBXNativeTarget "app基本架构快速集成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F82CC11DF938DA002A8E53 /* Debug */,
+				61F82CC21DF938DA002A8E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F82CC31DF938DA002A8E53 /* Build configuration list for PBXNativeTarget "app基本架构快速集成Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F82CC41DF938DA002A8E53 /* Debug */,
+				61F82CC51DF938DA002A8E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F82CC61DF938DA002A8E53 /* Build configuration list for PBXNativeTarget "app基本架构快速集成UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F82CC71DF938DA002A8E53 /* Debug */,
+				61F82CC81DF938DA002A8E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F82C8B1DF938DA002A8E53 /* Project object */;
+}
