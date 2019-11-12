@@ -21,9 +21,8 @@
     //获取当前的导航条---获取到正在显示的导航条
     UINavigationBar *navBar = [UINavigationBar appearance];
 
-    [navBar setBackgroundImage:[UIImage imageNamed:@"NavBackground"] forBarMetrics:UIBarMetricsDefault];
     //设置文字颜色
-    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]}];
     //获取当前的导航按钮---获取到正在显示的导航按钮
      UIBarButtonItem *item = [UIBarButtonItem appearance];
     item.tintColor = [UIColor whiteColor];

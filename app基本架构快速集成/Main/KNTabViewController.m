@@ -32,10 +32,7 @@
     
     KNHomeController *home = [KNHomeController new];
     [self addChildVc:home title:@"首页" image:@"common_tab_btn_home_60_n" selectedImage:@"common_tab_btn_home_60_s"];
-    
-//    KNClassifyController *classify = [KNClassifyController new];
-//    [self addChildVc:classify title:@"分类" image:@"tab_icon_activity__n" selectedImage:@"tab_icon_activity__s"];
-    
+
     KNActivityController *activity = [KNActivityController new];
     [self addChildVc:activity title:@"活动" image:@"common_tab_btn_huodong_60_n" selectedImage:@"common_tab_btn_huodong_60_s"];
     
@@ -65,7 +62,6 @@
     // 先给外面传进来的小控制器 包装 一个导航控制器
     KNNavViewController *nav = [[KNNavViewController alloc] initWithRootViewController:childVc];
     nav.navigationBar.barTintColor = [UIColor whiteColor];
-    nav.title = title;
     // 添加为子控制器
     [self addChildViewController:nav];
 }
